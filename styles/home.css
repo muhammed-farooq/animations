@@ -1,0 +1,15 @@
+.child{
+    transition: 1s ease-in;
+}
+
+.parent:hover .child{
+    /* background-color: black; */
+    animation: left-to-right 1s ease-in;
+    /* rotate: 360deg; */
+}
+@keyframes  left-to-right{
+    100%{
+        transform: translateX(100%);
+    }
+    
+}
